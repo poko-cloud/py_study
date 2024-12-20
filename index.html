@@ -1,1 +1,92 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紹介ページ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Py Study 紹介ページ</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">プロジェクト</a></li>
+                    <li><a href="#">連絡先</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>ぽこのPythonファイル置き場へよーこそ。</h1>
+            <p>このプロジェクトは、Pythonの学習を目的としていまっせ。</p>
+            <p>おすすめの本:<a href="https://book.impress.co.jp/books/1122101052">プログラミング人工知能・機械学習Pythonではじめるゲーム制作 超入門　知識ゼロからのプログラミング＆アルゴリズムと数学
+Pythonではじめるゲーム制作 超入門　知識ゼロからのプログラミング＆アルゴリズムと数学</a></p>
+            <p>で、そのファイル:<a href="https://book.impress.co.jp/support/aftercare/download/PythonGameIntro.zip">ダウンロード</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>Py Study &copy; 2024</p>
+    </footer>
+</body>
+</html>
